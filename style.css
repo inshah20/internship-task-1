@@ -1,0 +1,129 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.custom-nav {
+  background: #edede9;
+  transition: 0.4s;
+}
+
+.hero {
+  height: 100vh;
+  background: url('images/hero\ section.jpg') center/cover no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.3);
+}
+
+.hero-content {
+  position: relative;
+  color: white;
+  z-index: 2;
+  animation: fadeUp 1.2s ease;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.btn-custom {
+  background: #d5bdaf;
+  color: black;
+  padding: 10px 25px;
+  border-radius: 30px;
+}
+
+.features {
+  background: #f5ebe0;
+}
+
+.feature-card {
+  padding: 30px;
+  border: none;
+  background: #e3d5ca;
+  transition: 0.4s;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+}
+
+.testimonials {
+  background: #d6ccc2;
+}
+
+.review-box {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+footer {
+  background: #d5bdaf;
+}
+
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.custom-nav.shadow {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.btn-custom {
+  background: #d5bdaf;
+  color: black;
+  padding: 10px 25px;
+  border-radius: 30px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.btn-custom:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+  background:#fae6db ;
+  color: black;
+}
+
+.feature-card {
+  padding: 30px;
+  border: none;
+  background: #e3d5ca;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: 0.4s;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.review-box {
+  margin-top: 20px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+footer {
+  background: #d5bdaf;
+  box-shadow: 0 -5px 15px rgba(0,0,0,0.05);
+}
